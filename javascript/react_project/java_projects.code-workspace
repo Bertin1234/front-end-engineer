@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../static-java-projects/java_projects"
+		},
+		{
+			"name": "front-end-engineer",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "front-end-engineer"
+	}
+}

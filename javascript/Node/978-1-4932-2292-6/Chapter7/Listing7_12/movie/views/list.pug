@@ -1,0 +1,23 @@
+extends ../../templates/base
+
+block content
+  h1 Movie Database
+  table
+    thead
+      tr
+        th Id
+        th Title
+        th Year
+        th
+        th
+    tbody
+      - for(let movie of movies)
+        tr
+          td #{movie.id}
+          td #{movie.title}
+          td #{movie.year}
+          td
+            a(href="/movie/delete/" + movie.id) delete
+          td
+            a(href="/movie/form/" + movie.id) edit
+  a(href="/movie/form") new
